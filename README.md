@@ -3,14 +3,15 @@ Export selected objects as fbx in batch operation.
 
 ### Features
 * One fbx file per selected object
-* Set the pivot point to center before exporting (useful e.g. for Unreal Engine 4 imports)
+* Set the pivot point to center before exporting
+* Automatic axis conversion for use in Unity
 * Set the smoothing type before exporting (e.g. for low poly objects set it to FACE)
 * Define export folder, which is stored to .blend-file
 * Open export folder with one click
 * Export armature and animations
 
 ### Installing
-1. Download zip file: https://github.com/jayanam/batex/archive/master.zip
+1. Download zip file: https://github.com/d3tonat0r/batex4unity/archive/master.zip
 2. Open Blender
 3. Go to edit -> preferences -> addons
 4. Click install button
