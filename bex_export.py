@@ -117,7 +117,10 @@ class BatEx_Export:
       bake_space_transform=self.__apply_transform,
       mesh_smooth_type=self.__context.scene.export_smoothing,
       add_leaf_bones=False,
-      path_mode='ABSOLUTE')
+      path_mode='ABSOLUTE',
+      axis_forward='Z',
+      axis_up='Y'
+      )
 
       if materials_removed:
         self.restore_materials(obj)
