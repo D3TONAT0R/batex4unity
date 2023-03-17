@@ -1,7 +1,7 @@
 bl_info = {
-    "name" : "Batex",
-    "author" : "jayanam",
-    "descrtion" : "Batch export as Fbx",
+    "name" : "Batex4Unity",
+    "author" : "jayanam / Edy / D3TONAT0R",
+    "descrtion" : "Batch export as fbx for Unity",
     "blender" : (2, 80, 0),
     "version" : (0, 6, 0, 0),
     "location" : "Batex panel",
